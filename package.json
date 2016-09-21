@@ -1,0 +1,20 @@
+{
+  "name": "riseapi",
+  "version": "1.0.0",
+  "description": "----------------------------------\r Yodlee PFM/Aggregation Sample Apps\r ----------------------------------\r  - Yodlee Sample Apps/Libraries can be used :\r \ti)  To Consume Yodlee PFM/Aggregation API's \r \tii) Provides seamless interaction to Yodlee API's",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
+    "mongoose": "^4.6.0",
+    "save": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

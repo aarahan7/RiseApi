@@ -1,0 +1,26 @@
+URL -> http://localhost:8000/riseapi/coblogin
+Method -> POST
+Content-Type: application/json
+Body-> 
+{
+  "cobrand":
+{
+		"cobrandLogin": "sbCobbiswaranjan.b@outlook.com",
+		"cobrandPassword": "80a3a3b4-50ec-49e1-9b3c-9d711b971779",
+		"locale": "en_US"
+	}
+}
+
+_____________________________________________________
+
+URL -> http://localhost:8000/riseapi/userlogin
+Method -> POST
+Content-Type: application/json
+Body->
+{ 
+"user":      {
+      "loginName": "sbMembiswaranjan.b@outlook.com",
+      "password": "sbMembiswaranjan.b@outlook.com1#123",
+      "locale": "en_US"
+     }
+}
